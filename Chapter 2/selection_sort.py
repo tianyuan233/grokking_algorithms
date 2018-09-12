@@ -1,4 +1,7 @@
 def findSmallest(arr):
+    """
+    返回数组中最小值的索引
+    """
     smallest = arr[0]
     smallest_index = 0
     for i in range(1,len(arr)):
