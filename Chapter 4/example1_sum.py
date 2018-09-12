@@ -1,6 +1,7 @@
-
-
 def sum(list):
+    """
+    递归列表求和    
+    """
     if list == []:
         return 0
     else:

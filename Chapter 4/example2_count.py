@@ -1,4 +1,7 @@
 def count(list):
+    """
+    递归列表计数
+    """
     if list == []:
         return 0
     else:

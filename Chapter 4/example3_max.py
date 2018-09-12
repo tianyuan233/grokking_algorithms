@@ -1,4 +1,7 @@
 def max(list):
+    """
+    递归求列表最大值
+    """
     if len(list) == 1:
         return list[0]
     return list[0] if list[0] > max(list[1:]) else max(list[1:])
